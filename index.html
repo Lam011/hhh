@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website giới thiệu cá nhân của Nguyen Tung Lam - học sinh THPT Phú Nhuận.">
+  <title>Nguyen Tung Lam — Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span>TL</span> NGUYEN TUNG LAM</a>
+      <button class="menu-btn" aria-label="Mở menu" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#about">01 / About</a>
+        <a href="#interests">02 / Interests</a>
+        <a href="#projects">03 / Projects</a>
+        <a href="#contact">04 / Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Nguyen<br><em>Tung Lam</em></h1>
+        <p class="lead">Học sinh THPT Phú Nhuận.<br>Một không gian nhỏ để giới thiệu bản thân, suy nghĩ và những điều mình đang khám phá.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#about">Khám phá <span>↘</span></a>
+          <a class="btn ghost" href="#contact">Liên hệ</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Hình minh họa công nghệ">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="core"><span>TL</span><small>PHÚ NHUẬN / 2026</small></div>
+        <div class="float-card card-one"><b>STATUS</b><span>LEARNING MODE</span></div>
+        <div class="float-card card-two"><b>FOCUS</b><span>CREATE · EXPLORE</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head reveal"><span>01</span><h2>WHO I AM</h2></div>
+      <div class="about-grid">
+        <div class="big-statement reveal">Không ngừng <strong>học</strong>.<br>Không ngại <strong>thử</strong>.<br>Luôn muốn <strong>tiến lên</strong>.</div>
+        <div class="about-text reveal">
+          <p>Mình là Nguyen Tung Lam, học sinh THPT Phú Nhuận. Website này là góc nhỏ để lưu lại hành trình học tập và những điều mình quan tâm.</p>
+          <p>Mình thích cách công nghệ biến một ý tưởng đơn giản thành một sản phẩm có thể nhìn thấy và sử dụng được.</p>
+          <div class="facts"><div><span>01</span><b>STUDENT</b><small>THPT PHÚ NHUẬN</small></div><div><span>02</span><b>MINDSET</b><small>CURIOUS & OPEN</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal"><span>02</span><h2>INTERESTS & MINDSET</h2></div>
+        <div class="interest-grid">
+          <article class="interest reveal"><div class="number">01</div><h3>LEARN</h3><p>Học từ những câu hỏi mới, thử nhiều cách tiếp cận và biến kiến thức thành điều dễ hiểu.</p></article>
+          <article class="interest reveal"><div class="number">02</div><h3>CREATE</h3><p>Thích biến ý tưởng thành những sản phẩm trực quan, gọn gàng và có dấu ấn riêng.</p></article>
+          <article class="interest reveal"><div class="number">03</div><h3>EXPLORE</h3><p>Luôn tò mò về công nghệ, thiết kế và những điều mới có thể mở rộng góc nhìn.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-head reveal"><span>03</span><h2>SELECTED WORK</h2></div>
+      <div class="project-list">
+        <article class="project reveal"><span>01 / WEB</span><div><h3>Personal Portfolio</h3><p>Thiết kế website giới thiệu cá nhân với phong cách dark-tech.</p></div><b>↗</b></article>
+        <article class="project reveal"><span>02 / SCHOOL</span><div><h3>Presentation Projects</h3><p>Những bài thuyết trình và sản phẩm học tập được trình bày trực quan.</p></div><b>↗</b></article>
+        <article class="project reveal"><span>03 / NEXT</span><div><h3>More to come</h3><p>Hành trình vẫn đang tiếp tục — đây chỉ là điểm bắt đầu.</p></div><b>↗</b></article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container reveal">
+      <p class="eyebrow">04 / THE NEXT CHAPTER</p>
+      <h2>LET'S KEEP<br><em>EXPLORING.</em></h2>
+      <p>Website này sẽ còn được cập nhật cùng với những trải nghiệm và sản phẩm mới.</p>
+      <a class="btn primary" href="#home">BACK TO TOP ↑</a>
+    </section>
+  </main>
+
+  <footer class="footer container"><span>© <span id="year"></span> NGUYEN TUNG LAM</span><span>BUILT WITH HTML · CSS · JS</span></footer>
+  <button class="top" aria-label="Về đầu trang">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
